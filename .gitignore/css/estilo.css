@@ -1,0 +1,83 @@
+body{
+    color:#333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
+}
+header {
+    position: relative;
+}
+.menu-opcoes {
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+.menu-opcoes ul {
+    font-size: 15px;
+}
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.menu-cabecalho a {
+    color: #003366;
+}
+.sacola {
+    background: url(../img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: left;
+    width: 140px;
+    padding-top: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+#logotipo {
+    position: relative;
+    top: 0px;
+    left: 720px;
+}
+.busca, .menu-departamentos {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right:   40px;
+    width: 230px;
+}
+.busca h2, .busca form, .menu-departamentos h2 {
+    margin: 10px;
+}
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom:  1px;
+    padding: 5px 10px;
+}
+.menu-departamentos a {
+    color: #333333;
+    text-decoration: none;
+}
+.busca input {
+    vertical-align: middle;
+}
+.busca input[type=search] {
+    width: 170px;
+}
+.busca, .menu-departamentos {
+    float: right;
+}
+.menu-departamentos {
+    clear: right;
+}
+.destaque {
+    margin-top: 10px;
+}
+.menu-departamentos {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+#mulher {
+    margin-left: 50px;
